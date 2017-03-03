@@ -255,7 +255,7 @@ try{
                                                 if (docValue.description) alert.description = docValue.description;
                                                 item.alerts.push(alert);
                                                 //var emessage = alert.type + ' ' + alert.name + ' at ' + alert.location + ' on ' + alert.date;
-                                                var emessage = 'CA-EMRG-AL: An alert type ' + alert.type + ' has been posted for your location: ' + value.displayName + '. Please visit our site for further info ' + 'https://goo.gl/ULsA2y'
+                                                var emessage = 'CA-EMRG-AL: An alert type ' + alert.type + ' has been posted for your location: ' + value.displayName + '. Please visit our site for further info ' + 'https://goo.gl/6WUZQG'
 
                                                 if (value.enableSMS && item.phone) {
                                                     util.sendSMS(item.phone, emessage, function (err, o) {

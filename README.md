@@ -80,7 +80,7 @@ A GitHub repository was setup to capture code commits for each developer. We als
 
 ##f. Used Swagger to document the RESTful API, and provided a link to the Swagger API;
 
-Swagger was used to document our RESTful APIs and other technical documentation. A link to our Swagger account can be found <a href='http://ec2-52-53-93-51.us-west-1.compute.amazonaws.com:8080/'>here</a>.
+Swagger was used to document our RESTful APIs and other technical documentation. A link to our Swagger account can be found <a href='https://s3-us-west-1.amazonaws.com/ca-prototype-hotb-assets/swagger.html'>here</a>.
 
 ##g. Complied with Section 508 of the Americans with Disabilities Act and WCAG 2.0;
 
@@ -88,7 +88,7 @@ We created our and implemented our designs and user experience in accordance wit
 
 ##h. Created or used a design style guide and/or a pattern library;
 
-Following the initial wireframe creation, we created a <a href='https://s3-us-west-1.amazonaws.com/ca-prototype-hotb-assets/Styleguide.pdf'>style guide and color palette</a> that was used throughout the application for consistency and uniformity. 
+Following the initial wireframe creation, we created a <a href='https://s3-us-west-1.amazonaws.com/ca-prototype-hotb-assets/Styleguide.pdf'>style guide and color palette</a> that was used throughout the application for consistency and uniformity.
 
 ##i. Performed usability tests with people;
 
@@ -139,7 +139,7 @@ We developed automated unit UI tests written in Python that ran on an instance o
 
 ##o. Setup or used a continuous integration system to automate the running of tests and continuously deployed their code to their IaaS or PaaS provider;
 
-We setup Docker to containerize our server environment to handle continuous deployments. Deployments were automatically kicked off and managed through Jenkins following each commitment to a development branch. Automated tests built with Selenium were initiated following each deployment. Some of these jobs consist of deploying dockerized Node.js containers to our staging and production AWS ECS Clusters; making nightly backups of the staging and production MongoDB databases; executing NPM, Bower and Grunt tasks to build and deploy our website to staging and production AWS S3 buckets; and running automated tests to validate previous updates. In addition to automated tests, our QA engineers conduct manual testing of each update across all platforms. 
+We setup Docker to containerize our server environment to handle continuous deployments. Deployments were automatically kicked off and managed through Jenkins following each commitment to a development branch. Automated tests built with Selenium were initiated following each deployment. Some of these jobs consist of deploying dockerized Node.js containers to our staging and production AWS ECS Clusters; making nightly backups of the staging and production MongoDB databases; executing NPM, Bower and Grunt tasks to build and deploy our website to staging and production AWS S3 buckets; and running automated tests to validate previous updates. In addition to automated tests, our QA engineers conduct manual testing of each update across all platforms.
 
 ##p. Setup or used configuration management;
 
@@ -153,11 +153,10 @@ AWS Cloudwatch was setup to monitor the servers, application availability and ge
 
 We utilized Docker for our containerization.
 
-##s. Provided sufficient documentation to install and run their prototype on another machine; 
+##s. Provided sufficient documentation to install and run their prototype on another machine;
 
 See individual README.md files for each component.
 
 ##t. Prototype and underlying platforms used to create and run the prototype are openly licensed and free of charge.
 
 All components used to deliver and run the prototype are openly licensed and free of charge.
-

@@ -16,4 +16,10 @@ ratings:
   paths:
   - "**/*.java"
   - "**/*.js"
+  - "**/*.css"
+
+exclude_paths:
+  - documents
+  - src/design
+  - src/jenkins
 

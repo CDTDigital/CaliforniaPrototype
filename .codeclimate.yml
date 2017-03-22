@@ -14,5 +14,6 @@ engines:
 
 ratings:
   paths:
-  - "src/main/java/**"
+  - "**/*.java"
+  - "**/*.js"
 
